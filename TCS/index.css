@@ -121,7 +121,13 @@
     margin-right: 70px;
 }
 #first .p1{
-    text-shadow: 0px 10px 10px black;
+    text-shadow: 10px 5px 10px black;
+}
+#first .p2{
+    text-shadow: 10px 10px 10px black;
+}
+#first .p3{
+    text-shadow: 10px 10px 10px black;
 }
 #first .div1 img{
     height: 500px;
@@ -161,6 +167,84 @@
     font-size: 40px;
     margin-top: 200px;
     margin-left: 20px;
+}
+
+/* =================================== second section ================================== */
+.h{
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+#second {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 100px;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+#second .ar2{
+    margin-left: 20px;
+    /* padding-right: 70px; */
+}
+#second .ar2 div{
+    padding-right: 200px;
+}
+#second article div a{
+    text-decoration: none;
+    color: black;
+}
+#second article div a i{
+    margin: 30px;
+}
+#second article div:hover{
+    margin: 0px;
+    box-shadow: inset 0px 0px 10px black;
+}
+#second .ar1 .A1{
+    padding-left: 450px;
+}
+#second .ar1 .A2{
+    padding-left: 188px;
+}
+#second .ar1 .A3{
+    padding-left: 438px;
+}
+#second .ar1 .A4{
+    padding-left: 442px;
+}
+#second .ar1 .A5{
+    padding-left: 447px;
+}
+#second .ar1 .A6{
+    padding-left: 410px;
+}
+#second .ar1 .A7{
+    padding-left: 470px;
+}
+
+/* =================================== third section ================================== */
+
+#third{
+    background-color: black;
+}
+#third .th1{
+    color: white;
+    font-size: 17px;
+    margin-left: 70px;
+    padding-top: 90px;
+}
+#third .th2{
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#third article div{
+    display: flex;
+}
+#third .ar1{
+    height: 300px;
+    width: 300px;
 }
 
 
